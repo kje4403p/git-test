@@ -1,0 +1,49 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+ .gitignore
+        build.gradle
+        gradle/
+        gradlew
+        gradlew.bat
+        settings.gradle
+        src/main/java/com/example/gitTest/GitTestApplication.java
+        src/main/resources/application.properties
+        src/main/resources/static/index_BACKUP_3076.html
+        src/main/resources/static/index_BASE_3076.html
+        src/main/resources/static/index_LOCAL_3076.html
+        src/main/resources/static/index_REMOTE_3076.html
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
